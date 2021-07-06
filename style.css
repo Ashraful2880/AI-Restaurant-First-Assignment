@@ -103,7 +103,7 @@ img{
     max-width: 33%;
     padding: 2%;
     box-shadow: 1px 1px 25px rgb(189, 188, 188);
-    border-radius: 35px;
+    border-radius: 30px;
 }
 .recipie-width img{
     border-radius: 25px;
@@ -119,12 +119,20 @@ img{
     margin-right: 5%;
 }
 
-
 /* Recipie CSS Section End */
 
 /* Social Section CSS Start */
-
-
+.social-section{
+    max-width: 90%;
+    margin: 80px auto;
+    box-shadow: 1px 1px 25px rgb(189, 188, 188);
+    border-radius: 20px;
+}
+.social-item{
+    max-width: 30%;
+    margin: auto;
+    padding:30px 50px ;
+}
 
 
 /* Social CSS Section End */
