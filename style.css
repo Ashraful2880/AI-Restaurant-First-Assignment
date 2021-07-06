@@ -71,3 +71,20 @@ img{
     border-radius: 15px;
 }
 /* Top Banner CSS End */
+
+/* About Me Section CSS Start */
+
+.about-area{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 100px 0px 50px 0px;
+}
+.about-text{
+    margin-left: 16%;
+}
+.about-text p{
+    max-width: 600px;
+}
+
+/* About Me CSS Section End */
