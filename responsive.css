@@ -1,0 +1,260 @@
+/*------------> Responsive Style For Mobile <-------- */
+@media only screen and (max-width:688px) {
+    h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .banner-head {
+        text-align: center;
+    }
+
+    .banner-text {
+        padding-top: 20px;
+        margin-top: 0px;
+    }
+
+    .banner-text h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .banner-text h4 {
+        margin: 30px auto;
+    }
+
+    .primary-button {
+        padding: 20px 90px;
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .flex-container {
+        display: block;
+        width: 100%;
+    }
+
+    .half-width {
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .banner-image img {
+        max-width: 100%;
+    }
+
+    .about-text {
+        margin-left: 0;
+    }
+
+    .about-area {
+        padding: 10px 0px;
+    }
+
+    .about-head {
+        margin: 15px 0;
+    }
+
+    .about-text h2 {
+        text-align: center;
+    }
+
+    .about-text p {
+        text-align: start;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .recipie-title h2 {
+        margin-bottom: 20px;
+    }
+
+    .recipie-title h4 {
+        font-size: 18px;
+    }
+
+    .recipie-title {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .recipie-area {
+        padding: 50px 5px 20px 5px;
+    }
+
+    .recipie-width {
+        max-width: 100%;
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .social-section {
+        max-width: 100%;
+        margin: 0px auto;
+    }
+
+    .social-item {
+        max-width: 100%;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .social-item p {
+        border-bottom: 1px solid grey;
+        padding: 10px 0;
+    }
+
+    .mobile-app-area {
+
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .mobile-app-area img {
+        width: 100%;
+        margin: 5px auto;
+    }
+
+    .color-white {
+        margin-top: 20px;
+    }
+
+    .mobile-app-area h1 {
+        font-size: 30px;
+    }
+
+    .mobile-app-area h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    footer p {
+        padding: 5px 10px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    img {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h4 {
+        font-size: 26px;
+    }
+
+    .top-banner-area {
+        margin-bottom: 60px;
+    }
+
+    .banner-text {
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .recipie-area {
+        padding: 30px 0;
+    }
+
+    .recipie-title {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .recipie-title h2 {
+        margin-bottom: 20px;
+    }
+
+    .flex-container {
+        padding: 0 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .recipie-width {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    #recipie-list-01 {
+        margin-left: 0%;
+    }
+
+    #recipie-list-02 {
+        margin-left: 0%;
+    }
+
+    #recipie-list-03 {
+        margin-right: 0%;
+    }
+
+    .social-section {
+        display: flex;
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .mobile-app-area {
+        padding: 40px 10px;
+        margin-top: 20px;
+    }
+
+    .half-width {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .half-width h1 {
+        max-width: 100%;
+    }
+
+    .half-width h2 {
+        max-width: 100%;
+    }
+
+    .half-width img {
+        max-width: 100%;
+    }
+
+    .color-white {
+        color: #fff;
+        margin-top: 0px;
+    }
+
+    .about-area {
+        padding-bottom: 50px;
+    }
+
+    .about-area img {
+        max-width: 100%;
+        margin-top: 110px;
+    }
+
+    .about-text {
+        margin-left: 0%;
+    }
+
+    footer p {
+        margin-top: 20px;
+    }
+}

@@ -1,158 +1,195 @@
-/* Common CSS Start */
-body{
+/*-------------> Common Style Here <--------------- */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
-h1{
+
+h1 {
     font-size: 55px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 60px;
     color: rgb(100, 99, 99);
 }
-h2{
+
+h2 {
     font-size: 40px;
     color: grey;
 }
-h3{
+
+h3 {
     margin-top: 50px;
     font-size: 30px;
     font-weight: 700;
 }
-h4{
+
+h4 {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
     margin-bottom: 70px;
     color: rgb(163, 163, 163);
 }
-p{
+
+p {
     font-size: 18px;
     font-weight: 600;
     line-height: 30px;
     color: rgb(98, 97, 97);
 }
-img{
+
+img {
     max-width: 100%;
 }
-.primary-button{
+
+.primary-button {
     text-decoration: none;
     padding: 22px 40px;
-    background-image: linear-gradient(45deg,orange, tomato);
+    background-image: linear-gradient(45deg, orange, tomato);
     border-radius: 30px;
     color: #fff;
     font-weight: 600;
     box-shadow: 1px 1px 25px rgb(207, 122, 107);
 }
-.color-orange{
+
+.color-orange {
     color: orange;
 }
-.flex-container{
+
+.flex-container {
     display: flex;
 }
-.half-width{
+
+.half-width {
     max-width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
-/* Common CSS End */
 
-/* Top Banner CSS Start */
+/*------------> Top Banner Area Style <------------*/
 
-.top-banner-area{
+.top-banner-area {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.banner-text{
+
+.banner-text {
     margin-top: 210px;
+    width: 60%;
+    margin-left: 10%;
 }
-.banner-image img{
+
+.sub-head {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.banner-image img {
     max-width: 90%;
     border-radius: 15px;
 }
-/* Top Banner CSS End */
 
-/* About Me Section CSS Start */
+/*---------------> About Me Area Style <-------------*/
 
-.about-area{
+.about-area {
     background-image: url(images/7.png);
     background-repeat: no-repeat;
-    background-size:cover;
-    padding: 100px 0px 50px 0px;
+    background-size: cover;
+    padding: 100px 0px 0px 0px;
 }
-.about-text{
+
+.about-text {
     margin-left: 16%;
 }
-.about-text p{
+
+.about-head {
+    margin-bottom: 30px;
+}
+
+.about-text p {
     max-width: 600px;
     margin-bottom: 90px;
 }
 
-/* About Me CSS Section End */
+/*---------------> Recipie Area Style <------------*/
 
-/* Recipie Section CSS Start */
-
-.recipie-area{
+.recipie-area {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    padding:90px 0;
+    padding: 90px 0;
 }
-.recipie-title{
-    width: 800px;
+
+.recipie-title {
+    width: 50%;
     margin: 0 auto;
     text-align: center;
 }
-.recipie-width{
+
+.recipie-width {
     max-width: 33%;
     padding: 2%;
     box-shadow: 1px 1px 25px rgb(189, 188, 188);
     border-radius: 30px;
 }
-.recipie-width img{
+
+.recipie-width img {
     border-radius: 25px;
 }
-#recipie-list-01{
+
+#recipie-list-01 {
     margin-left: 5%;
 }
-#recipie-list-02{
+
+#recipie-list-02 {
     margin-left: 2.5%;
-    margin-right:2.5%;
+    margin-right: 2.5%;
 }
-#recipie-list-03{
+
+#recipie-list-03 {
     margin-right: 5%;
 }
 
-/* Recipie CSS Section End */
-
-/* Social Section CSS Start */
-.social-section{
+/*------------> Social Area Style <--------------*/
+.social-section {
     max-width: 90%;
     margin: 80px auto;
     box-shadow: 1px 1px 25px rgb(189, 188, 188);
     border-radius: 20px;
 }
-.social-item{
+
+.social-item {
     max-width: 30%;
     margin: auto;
-    padding:30px 50px ;
+    padding: 30px 50px;
 }
 
-/* Social CSS Section End */
-
-/* Mobile App Area Section CSS Start */
-.mobile-app-area{
+/*-----------> Mobile App Area Style <----------- */
+.mobile-app-area {
     background-image: linear-gradient(90deg, rgb(255, 189, 67), tomato);
     padding: 100px 40px 80px 40px;
     margin-top: 150px;
 }
-.color-white{
-    color:#fff;
+
+.color-white {
+    color: #fff;
     margin-top: 80px;
 }
 
-/* Mobile App Area CSS Section End */
-footer{
+.mobile-link {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/*-------------> Footer Style <------------ */
+footer {
     background-color: rgb(0, 0, 0);
     text-align: center;
     padding: 50px 0;
 }
- 
-/* End Of The Project */
